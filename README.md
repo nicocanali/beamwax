@@ -8,7 +8,7 @@ Setup
 
 ```
 python -m venv venv
-source beamenv/bin/activate
+source venv/bin/activate
 pip install -r beam-requirements.txt
 ```
 
@@ -29,7 +29,7 @@ environment.
 
 ```
 python -m venv venv
-source beamenv/bin/activate
+source venv/bin/activate
 pip install -r bw-requirements.txt
 ```
 
