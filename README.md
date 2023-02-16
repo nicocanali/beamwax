@@ -38,4 +38,4 @@ pip install -r bw-requirements.txt
 But in a streaming case we need a window anyway.
 
 `bw-parquet-proto.py` is basically a 1:1 translation of `beam-parquet-proto.py`: we can see it's a lot more "manual"
-than Beam, everything needs to be specified, and again we use `reduce_window` to count
+than Beam, everything needs to be specified, and again we use `reduce_window` to count. This also means that it's probably much more flexible than Beam is, but I'm doing things that are way too simple to test this statement.
