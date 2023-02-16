@@ -23,7 +23,6 @@ clock_config = SystemClockConfig()
 window_config = TumblingWindowConfig(length=timedelta(seconds=10))
 
 def add(x, s):
-    print(x, s)
     return x + s
 
 flow = Dataflow()
