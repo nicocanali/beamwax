@@ -1,0 +1,5 @@
+bytewax==0.15.0
+dill==0.3.6
+multiprocess==0.70.14
+numpy==1.24.2
+pyarrow==11.0.0

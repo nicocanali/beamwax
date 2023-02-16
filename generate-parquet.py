@@ -1,7 +1,6 @@
 import os
 import uuid
 
-import apache_beam as beam
 import numpy as np
 import pandas as pd
 
@@ -19,8 +18,3 @@ if not os.path.exists("df.parquet"):
     df.to_parquet("df.parquet")
 else:
     print("File already exists, skipping")
-
-
-with beam.Pipeline() as pipeline:
-    data = pipeline | beam.io.ReadFromParquet("df.parquet")
-    (data | beam.Map(print))

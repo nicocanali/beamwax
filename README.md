@@ -12,7 +12,7 @@ pip install -r beam-requirements.txt
 ```
 
 `beam-wordcount.py` just makes sure that everything is running. Then, we can create
-a fake `parquet` file by running `python beam-parquet.py`. This file, `df.parquet` 
+a fake `parquet` file by running `python generate-parquet.py`. This file, `df.parquet` 
 contains a list of `user_ids` and their features.
 
 `beam-parquet-proto.py` uses Beam to scan this file (in reality we should use Kafka)
