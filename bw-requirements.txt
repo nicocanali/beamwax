@@ -1,3 +1,4 @@
+black==23.1.0
 bytewax==0.15.0
 dill==0.3.6
 multiprocess==0.70.14
