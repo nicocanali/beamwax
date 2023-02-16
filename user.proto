@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package beam;
+
+message User {
+  optional string user_id = 1;
+  optional string feature = 2;
+}
