@@ -38,4 +38,4 @@ for j in range(9999):
 
     producer.send("topic_test", key=j, value=u)
 
-    sleep(0.1)
+    sleep(0.05)
